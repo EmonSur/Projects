@@ -1,0 +1,55 @@
+#title {
+  text-align: center;
+}
+
+html {
+  background-color: lightblue;
+}
+
+.level-chooser {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+  max-width: 800px;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  position: relative;
+  background-color: #000080;
+}
+
+.level:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.locked {
+  background-color: #0000a9;
+}
+
+.level-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  color: white;
+}
+
+.level-number {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
