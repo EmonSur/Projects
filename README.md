@@ -1,6 +1,6 @@
 Projects:
 1. Personal Dynamic Website -- Found in html&css ca1 (Individual Project)
-- https://emonsur.github.io/webdeva1/
+- [Personal Dynamic Website)(https://emonsur.github.io/webdeva1/)
   
 2. Flask App Website -- Found in html&css ca2 (Individual Project)
 
