@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<section id="admin_page">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('admin_page')}}">↻</a></li>
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section id="admin_page_main" class="section">
+            <section id="services">
+                <h3>Admin Services</h3>
+                <ul>
+                    <li><a href="{{ url_for('delete_review')}}">Delete a Review</a></li>
+                    <li><a href="{{ url_for('add_employee_info') }}">Add Employee Info</a></li>
+                    <li><a href="{{ url_for('delete_employee_info') }}">Delete Employee Info</a></li>
+                    <li><a href="{{ url_for('add_animal_info') }}">Add Animal Info</a></li>
+                    <li><a href="{{ url_for('delete_animal_info') }}">Delete Animal Info</a></li>
+                </ul>
+            </section>
+
+            <section id="inbox" class="section">
+                <h4>Inbox</h4>
+                {% if requests %}
+                <section class="requests">
+                    {% for request in requests %}
+                        <section class="request">
+                            <p>Employee Id: {{ request["employee_id"] }}</p>
+                            <p>Name: {{request["name"]}}</p>
+                            <p>Beginning Date: {{ request["date_begin"] }}</p>
+                            <p>End Date: {{ request["date_end"] }}</p>
+                            <p>Reason: {{ request["reason"] }}</p>
+                        </section>
+                        <p><a href="{{ url_for ('admin_page', action='accept')}}"></a></p>
+                        <p><a href="{{ url_for ('admin_page', action='deny')}}"></a></p>
+                    {% endfor %}
+                </section>
+                {% endif %}
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="{{ url_for( 'contact_page') }}">Contact us</a></li>
+                <li><a href="{{ url_for( 'about_page') }}">About us</a></li>
+                <li><a href="{{ url_for( 'view_bookings') }}">Bookings</a></li>
+                <li><a href="{{ url_for( 'review') }}">Leave a review</a></li>
+            </ul>
+        </section>
+
+
+        {% if g.admin != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Admin - Log out &#x2192</a></p>
+        {% elif g.employee != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Employee - Log out &#x2192</a></p>
+        {% elif g.user == None %}
+            <p id="login"><a href="{{ url_for('login') }}">Log in &#x2192</a></p>
+        {% else %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Log out &#x2192</a></p>
+        {% endif %}
+        <p> Copyright © All About: Anois National Zoo. All Rights Reserved</p>
+
+
+    </footer>
+</section>
+
+{% endblock %}

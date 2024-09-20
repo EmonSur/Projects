@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main {background-image: url("{{ url_for('static', filename='update_reviews_page.jpg') }}" ); }
+</style>
+
+<section id="update_reviews_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('delete_review')}}">↻</a></li>
+            <li><a href="{{ url_for('admin_page') }}">Admin Homepage</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section class="form">
+            <p>Would you like to delete a review off of Our Website:</p>
+            <form method="POST" action="" novalidate>
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                {{ form.review_id.label }}
+                {{ form.review_id(class="form-control") }}
+                {% for error in form.review_id.errors %}
+                    {{ error }}
+                {% endfor %}
+                </div>
+                <br/>
+                {{ form.submit()}}
+            </form>
+
+            <p>Warning: This process is irreversible. You may not retrieve the review once it is <i>Deleted</i>.</p>
+
+            {% if message %}
+                <p>{{ message }}</p>
+            {% endif %}
+
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="{{ url_for( 'contact_page') }}">Contact us</a></li>
+                <li><a href="{{ url_for( 'about_page') }}">About us</a></li>
+                <li><a href="{{ url_for( 'view_bookings') }}">Bookings</a></li>
+                <li><a href="{{ url_for( 'review') }}">Leave a review</a></li>
+            </ul>
+        </section>
+
+
+        {% if g.admin != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Admin - Log out &#x2192</a></p>
+        {% elif g.employee != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Employee - Log out &#x2192</a></p>
+        {% elif g.user == None %}
+            <p id="login"><a href="{{ url_for('login') }}">Log in &#x2192</a></p>
+        {% else %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Log out &#x2192</a></p>
+        {% endif %}
+        <p> Copyright © All About: Anois National Zoo. All Rights Reserved</p>
+
+
+    </footer>
+</section>
+
+{% endblock %}
