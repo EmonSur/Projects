@@ -1,0 +1,62 @@
+html {
+  position: relative;
+  margin:  0 auto;
+  max-width: 1082px;
+  font-family: 'montserrat', 'sans-montserrat';
+  background-color: lightblue ;
+}
+#canvas {
+  border: 1px solid #000080;
+  display: block;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+canvas {
+  width: 60%;
+  height: auto;
+}
+
+
+h1 {
+  color: #000080;
+  font-size: 25px;
+  font-family: 'Uncial Antiqua', serif;
+}
+
+button {
+  background-color: #000080;
+  color: white;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+}
+
+
+
+#message-display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #eee;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'Uncial Antiqua', serif;
+  font-size: 15px;
+  font-weight: bold;
+  display: none;
+}
+
+#timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  height: 35px;
+  margin: 0 auto;
+  width: 60%;
+  color: white;
+  background-color: #000080;
+}
+

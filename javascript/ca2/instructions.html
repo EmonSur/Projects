@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon Dash Instructions</title>
+    <link rel="stylesheet" href="instructions.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Sticky Side Menu for quick navigation -->
+    <nav id="side-menu">
+        <ul>
+            <li><a href="#gameplay">Gameplay</a></li>
+            <li><a href="#power-ups">Power Ups</a></li>
+            <li><a href="#good_luck">Good Luck</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="animate-fade-in">Dungeon Dash Instructions</h1>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+            <p class="scroll-animate">Welcome to Dungeon Dash, the ultimate test of your reflexes and gaming skills!</p>
+            <p class="scroll-animate">In this game, you will need to guide your player character across the canvas, dodging enemies and obstacles along the way. Here's how to play:</p>
+        </section>
+
+        <section id="gameplay">
+            <h2 class="scroll-animate">Gameplay</h2>
+            <ul class="scroll-animate">
+                <li><i class="fas fa-arrow-up"></i> Press the up arrow once to make the player character jump.</li>
+                <li>If you manage to get to the other side of the canvas without colliding with an enemy, you win!</li>
+                <li>If you hit an enemy, you will be returned to the starting point and have to try again.</li>
+                <li>You have three lives before you lose.</li>
+                <li>The game has four levels, each with increasing numbers and speeds of enemies.</li>
+                <li>Each level has three difficulties: easy, medium, and hard.</li>
+                <li>The game is timed, and the fastest players for each level can make it onto the leaderboard.</li>
+            </ul>
+            <p class="scroll-animate">Note: You may need to resize your window to fit the whole canvas. Please do so if need be.</p>
+        </section>
+
+        <section id="power-ups">
+            <h2 class="scroll-animate">Power ups</h2>
+            <ul class="scroll-animate">
+                <li><i class="fas fa-ghost"></i> Ghost Mode (Press G): Ignores all collisions with enemies. <span class="tooltip">Become invincible to enemies!</span></li>
+                <li><i class="fas fa-stopwatch"></i> Time Freeze Mode (Press F): Freezes enemies in place. <span class="tooltip">Stop enemies for a limited time!</span></li>
+                <li><i class="fas fa-heart"></i> Immortal Mode (Press I): Gives you unlimited lives. <span class="tooltip">Never lose a life in this mode!</span></li>
+                <li><i class="fas fa-bullseye"></i> Assault Mode (Press A): Shoot enemies by pressing the space bar. <span class="tooltip">Eliminate enemies with magic blasts!</span></li>
+            </ul>
+            <p class="scroll-animate">You may enter as many modes as you want at the same time. Mix and match, it's up to you. To exit a mode, simply press the corresponding key again.</p>
+        </section>
+
+        <section id="good_luck">
+            <h2 class="scroll-animate">Good luck and have fun!</h2>
+        </section>
+
+        <div class="scroll-animate">
+            <p id="instructions">Continue to level selection menu <a href="levels.html">Here</a></p>
+        </div>
+    </div>
+
+    <script src="instructions.js"></script>
+</body>
+</html>

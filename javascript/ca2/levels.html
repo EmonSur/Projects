@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon Dash - Select Your Challenge</title>
+    <link rel="stylesheet" href="levels.css">
+    <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Choose Your Dungeon Path</h1>
+    </header>
+
+    <div class="level-chooser">
+        <div class="level-container">
+            <div class="level unlocked" id="level1">
+                <div class="level-card">
+                    <div class="front">
+                        <i class="fas fa-dungeon"></i>
+                        <div class="level-number">Level 1</div>
+                    </div>
+                    <div class="back">
+                        <h3>Level 1</h3>
+                        <p>Beginner Difficulty. Easy enemies to prepare you for the deeper dungeons.</p>
+                        <button id="level-1" class="btn">Play</button>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="level-container">
+            <div class="level locked" id="level2">
+                <div class="level-card">
+                    <div class="front locked-overlay">
+                        <i class="fas fa-lock"></i>
+                        <div class="level-number">Level 2</div>
+                    </div>
+                    <div class="back">
+                        <h3>Level 2</h3>
+                        <p>Intermediate Difficulty. More dangerous enemies await.</p>
+                        <button id="level-2" class="btn locked-btn">Locked</button>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="level-container">
+            <div class="level locked" id="level3">
+                <div class="level-card">
+                    <div class="front locked-overlay">
+                        <i class="fas fa-lock"></i>
+                        <div class="level-number">Level 3</div>
+                    </div>
+                    <div class="back">
+                        <h3>Level 3</h3>
+                        <p>Advanced Difficulty. Only for seasoned adventurers.</p>
+                        <button id="level-3" class="btn locked-btn">Locked</button>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="level-container">
+            <div class="level locked" id="level4">
+                <div class="level-card">
+                    <div class="front locked-overlay">
+                        <i class="fas fa-lock"></i>
+                        <div class="level-number">Level 4</div>
+                    </div>
+                    <div class="back">
+                        <h3>Level 4</h3>
+                        <p>Nightmare Difficulty. Face the ultimate challenge.</p>
+                        <button id="level-4" class="btn locked-btn">Locked</button>
+                    </div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="levels.js"></script>
+</body>
+</html>
