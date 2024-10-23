@@ -1,0 +1,473 @@
+/*core css*/
+:root{
+    --base_clr: black;
+    --bg-clr: #D4AC0D;
+    --hover-clr: #EC7063;
+    --imp-txt-clr: white;
+    font-size: 16px;
+} 
+
+/*grids*/
+
+/*homepage grid*/
+#homepage, .not_form_mains{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: 
+        "top top"
+        "left-first-row right-first-row"
+        "second-row second-row"
+        "bottom bottom";
+}
+
+#homepage nav, .not_form_mains nav {grid-area: top;}
+#homepage main, .not_form_mains main {grid-area: left-first-row;}
+#homepage #open_hours, .not_form_mains #open_hours {grid-area: right-first-row}
+#homepage #reviews, .not_form_mains #reviews { grid-area: second-row;}
+#homepage footer, .not_form_mains footer {grid-area: bottom;}
+
+
+/*reviews page grid*/
+#reviews_page{
+    display: grid;
+    grid-template-columns:  5fr;
+    grid-template-areas:
+        "top top"
+        "left right"
+        "bottom bottom";
+}
+
+#reviews_page nav{ grid-area: top;}
+#reviews_page #reviews_options{ grid-area: right;}
+#reviews_page #reviews_section{ grid-area: left;}
+#reviews_page footer{ grid-area: bottom;}
+
+/*nav*/
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-items: flex-end;}
+
+nav li{float: right;}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+nav li a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 1em;
+    border-radius: 0.25em;
+    padding: 0.5em;
+}
+
+nav li a:not(#refresh) {
+    color: var(--imp-txt-clr);
+    background-color: var(--bg-clr);
+    padding: 0.5em 1em;
+}
+
+nav li a:hover:not(#refresh){    
+    background-color: var(--hover-clr);
+    padding: 0.5em 1.5em;}
+
+
+/*main*/
+
+.form_mains main, #homepage main, .not_form_mains main {
+    background-color: var(--bg-clr);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33em;
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}  
+
+#homepage main>section, .not_form_mains main>section{ 
+    min-height: 30%;
+    background-color:  rgb(212, 172, 13, 0.7);
+    bottom: 0;
+    position: absolute;
+}
+
+  
+#homepage main p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--base_clr);
+    margin: 2em 1em 0em 2em;
+    text-align: right;
+}
+
+.not_form_mains section{
+    padding: 2em;
+}
+
+
+
+ul {list-style: none;}
+
+main a {
+    display: inline;
+    text-decoration: none;
+    color: var(--imp-txt-clr)}
+
+main a:hover{
+    background-color: var(--imp-txt-clr);
+    color: var(--bg-clr);
+}
+
+.form {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 1em;
+    width: 100%;
+    background-color:  rgb(212, 172, 13, 0.7)
+}
+
+.form_fields {
+    white-space: nowrap;
+    width: 100%;
+    padding-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.form .form-group {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.form .form-control {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+/*reviews page main*/
+#reviews_page main, #animals_page main, #employee_page main{ 
+    background-color: var(--bg-clr);
+    margin-top: 2em;
+    border-radius: 0.25em;
+}
+
+
+#reviews_page main {
+    display: flex;
+}
+
+#reviews_options {flex-basis: 20%;}
+#reviews_section { flex-basis: 80%;}
+
+#reviews_options { 
+    margin: 2em;
+}
+
+#all_reviews {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+#reviews_section h2, #animals_section h2 {text-align: center;}
+
+#all_reviews .review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--imp-txt-clr);
+    width: calc(33.33% - 4em);
+    min-height: 200px;
+    overflow: auto;
+    flex-grow: 1;
+    margin: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+}
+
+#reviews_section a, #animals_section .image_desc {
+    background-color: var(--imp-txt-clr);
+    margin: 2em 2em 4em 2em;
+    color: var(--base_clr);
+}
+
+#reviews_section a:hover {
+    background-color: var(--hover-clr);
+}
+
+/* view bookings page main*/
+.booking{
+    background-color: var(--imp-txt-clr);
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+}
+
+#all_bookings{
+    max-height: 13em;
+    overflow: auto;
+}
+
+
+/*animals page main*/
+#animals_page #animals_form {
+    padding: 2em;
+}
+
+#animals_page main {
+    display: flex;
+}
+
+#animals_habitat {flex-basis: 15%;}
+#animals_section { flex-basis: 85%;}
+
+#all_animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery_item {
+    flex-basis: calc(33.33% - 4em);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    max-width: 15em;
+}
+
+.gallery_item:hover {
+    border: 1px solid #777;
+}
+  
+.gallery_image {
+    display: block;
+    max-width: 15em;
+    height: auto;
+}
+
+.image_desc { 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#animals_section .image_desc {
+    background-color: var(--imp-txt-clr);
+    margin: 1em;
+    color: var(--base_clr);
+}
+
+/*employee page main*/
+#employee_page h3 {
+    padding: 1em;
+    background-color: var(--imp-txt-clr);
+    color: var(--bg-clr);
+    border: 1px solid var(--bg-clr);
+    border-radius: 0.25em;
+}
+
+#admin_page_main {
+    background-color: var(--bg-clr);
+    display: flex;
+    position: relative;
+    margin-top: 2em;
+}
+
+#admin_page_main section{
+    flex-basis: 50%;
+    position: relative;
+}
+
+#employee_page_main {
+    display: flex;
+    height: 30em;
+    position: relative;
+}
+
+#employee_page_main section{
+    flex-basis: 50%;
+    padding-left: 1em;
+    position: relative;
+}
+
+
+#employee_page_main .section:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1em;
+    width: 0.5px;
+    height: 100%;
+    background-color: var(--base_clr)  
+}
+#employee_page h4{text-align: center;}
+
+
+
+/* admin page main*/
+#admin_page_main {
+    background-color: var(--bg-clr);
+    display: flex;
+    position: relative;
+    margin-top: 2em;
+    height: 30em;
+    padding: 2em;
+}
+
+#admin_page_main section{
+    flex-basis: 50%;
+    position: relative;
+    padding: 1em;
+    overflow: auto;
+}
+
+#admin_page_main>section:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 1em;
+    width: 1px;
+    height: 100%;
+    background-color: var(--base_clr)  
+}
+
+
+.request {
+    background-color: var(--imp-txt-clr);
+    margin: 1em;
+    padding: 1em;
+}
+
+
+#services li { 
+    padding: 0.5em;
+}
+
+#services a{
+    background-color: var(--imp-txt-clr);
+    color: var(--base_clr);
+    padding: 0.25em;
+    border-radius: 0.1em;
+}
+
+
+/*asides*/
+/*homepage asides*/
+#open_hours section{
+    background: var(--bg-clr);
+    margin: 1em 0 0 1em;
+    padding: 1em;
+}
+
+#reviews { margin-top: 2em;}
+
+#reviews h2, #reviews .links {
+    text-align: center;
+    margin-top: 2em;}
+
+.links a{
+    color: var(--imp-txt-clr);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: var(--bg-clr);
+    border-radius: 0.25em;
+}
+
+.links a:hover{    
+    background-color: var(--hover-clr);
+    padding: 0.5em 1.5em;}
+
+#latest_reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--hover-clr);
+    width: calc(33.33% - 2em);
+    min-height: 200px;
+    overflow: auto;
+    flex-grow: 1;
+    margin-right: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+}
+
+.review_content { 
+    flex-grow: 1;
+    border: 1px solid black;
+    height: 5em;
+    padding: 2em;
+    overflow: auto;
+}
+
+/*log in page asides*/
+#login_page {
+    overflow: auto;}
+
+#employee_log_in p{
+    background-color: var(--bg-clr);
+    float: right;
+    margin-bottom: 10em;}
+
+
+
+/*footer*/
+footer ul{
+    list-style-type: none;
+    margin: 0 0 3em 0;
+    padding: 0.5em;}
+
+footer section a:hover {
+    background-color: var(--hover-clr);
+    color: var(--base_clr)}
+
+footer{
+    padding: 3em 3em 2em 3em;
+    margin-top: 2em;
+    color: var(--imp-txt-clr);
+    background-color: var(--bg-clr);
+    background-attachment: scroll ;
+    background-size: cover;
+    font-size: 0.85em;}
+
+footer a {
+    text-decoration: none;
+    color: var(--imp-txt-clr);
+    padding: 0.5em;
+}
+
+footer li {
+    margin-top: 0.5em;
+}
+
+#login, #logout{margin-bottom: 2em;}
+
+#login a, #logout a{
+    background-color: var(--hover-clr);
+    padding: 0.4em 1.5em 0.4em 1em;
+    font-size: 1.5em;
+    border-radius: 0.25em;
+}
+

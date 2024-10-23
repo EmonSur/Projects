@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Anois National Zoo</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <link rel="icon" href="/static/favicon.ico">
+            
+    </head>
+
+    <body>
+
+<section id="animals_page">
+    
+     
+    <nav>
+        <ul>
+            <li><a id="refresh" href="/">↻</a></li>
+            
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/donate">Donate</a></li>
+            <li><a href="/bookings">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section id="animals_habitats"> 
+            <section id="animals_form">
+                <form method="POST" action="" novalidate>
+                    <input id="csrf_token" name="csrf_token" type="hidden" value="ImNmNWQ4MDE5ZGJhOTVjNDdiMmZjMTJmOTRlZGQ0ZjI4MDAwYzI4Nzki.Zxlf2A.2CxfXElussdKq1RawQdLDXZfgEk">
+                    <label for="habitats">Our animals by their Habitat:</label>
+                    <ul class="form-control" id="habitats"><li><input checked id="habitats-0" name="habitats" type="radio" value="All Habitats"> <label for="habitats-0">All Habitats</label></li><li><input id="habitats-1" name="habitats" type="radio" value="The African Savanna"> <label for="habitats-1">The African Savanna</label></li><li><input id="habitats-2" name="habitats" type="radio" value="The Himalayan Highlands"> <label for="habitats-2">The Himalayan Highlands</label></li><li><input id="habitats-3" name="habitats" type="radio" value="The South-American Exhibit"> <label for="habitats-3">The South-American Exhibit</label></li><li><input id="habitats-4" name="habitats" type="radio" value="The Freezing Antarctic"> <label for="habitats-4">The Freezing Antarctic</label></li><li><input id="habitats-5" name="habitats" type="radio" value="The Australian Outback"> <label for="habitats-5">The Australian Outback</label></li></ul>
+                    <br />
+                    <input id="submit" name="submit" type="submit" value="Submit ✓">
+                </form>
+            </section>
+        </section>
+
+        <section id="animals_section">
+            <h2>Our Animals</h2>
+            <section id="all_animals">
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/lion.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Lyla</p>
+                                <p>Species: Lion</p>
+                                <p>Exhibit: The African Savanna</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/giraffe.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Pepper</p>
+                                <p>Species: Giraffe</p>
+                                <p>Exhibit: The African Savanna</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/elephant.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Belle</p>
+                                <p>Species: Elephant</p>
+                                <p>Exhibit: The African Savanna</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/chimpanzee.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Princess</p>
+                                <p>Species: Chimpanzee</p>
+                                <p>Exhibit: The African Savanna</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/snow_leopard.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Trixie</p>
+                                <p>Species: Snow Leopard</p>
+                                <p>Exhibit: The Himalayian Highlands</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/red_panda.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Spot</p>
+                                <p>Species: Red Panda</p>
+                                <p>Exhibit: The Himalayan Highlands</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/emperor_penguin.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Slipper</p>
+                                <p>Species: Emperor Penguin</p>
+                                <p>Exhibit: The Freezing Antarctic</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/orca.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Ace</p>
+                                <p>Species: Orca</p>
+                                <p>Exhibit: The Freezing Antarctic</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/crocodile.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Marvin</p>
+                                <p>Species: Crocodile</p>
+                                <p>Exhibit: The South-American Exhibit</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/rattlesnake.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Buttercup</p>
+                                <p>Species: Rattlesnake</p>
+                                <p>Exhibit: The South-American Exhibit</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/emu.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Cookie</p>
+                                <p>Species: Emu</p>
+                                <p>Exhibit: The Australian Outback</p>
+                            </section>
+                        </section>
+                    </section>
+                
+                    <section class="animal" class="gallery">
+                        <section class="gallery_item">
+                            <img class="gallery_image" src="static/kangaroo.jpg" alt="">
+                            <section class="image_desc">
+                                <p>Name: Rocky</p>
+                                <p>Species: Kangaroo</p>
+                                <p>Exhibit: The Australian Outback</p>
+                            </section>
+                        </section>
+                    </section>
+                
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="/contact_page">Contact us</a></li>
+                <li><a href="/about_page">About us</a></li>
+                <li><a href="/view_bookings">Bookings</a></li>
+                <li><a href="/review">Leave a review</a></li>
+            </ul>
+        </section>
+
+
+        
+            <p id="login"><a href="/login">Log in &#x2192</a></p>
+        
+        <p> Copyright © All About: Anois National Zoo. All Rights Reserved</p>
+
+
+    </footer>
+</section>
+
+</body>
+</html>

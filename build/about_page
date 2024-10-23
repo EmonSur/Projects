@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Anois National Zoo</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <link rel="icon" href="/static/favicon.ico">
+            
+    </head>
+
+    <body>
+
+<style>
+    main {
+        background-image: url("/static/about_page.jpg" );
+    }
+</style>
+
+<section id="about_page" class="not_form_mains">
+    
+     
+    <nav>
+        <ul>
+            <li><a id="refresh" href="/about_page">↻</a></li>
+            
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/donate">Donate</a></li>
+            <li><a href="/bookings">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p> We first opened in September 2014, and have been up and running every since.
+                We may not be Ireland's biggest Zoo, but we like to think it is most definitely worth visiting us.
+            </p>
+
+            <p> Come visit our range of over 200 animals, some of which you'll learn about on this very website. </p>
+            <p> We look forward for your visit.</p>
+        </section>
+    </main>
+
+    <aside id="open_hours">
+        <section>
+            <h2>Opening Hours</h2>
+            <p>We're open 9.00am - 5.30pm everyday besides select holidays.</p>
+            <p>We can't wait for your visit.</p>
+        </section>
+    </aside>
+
+    <aside id="reviews">
+        <h2>Most recent reviews</h2>
+        <section id="latest_reviews">
+            
+        </section>
+
+        <p class="links"><a href="/review">Write a review</a></p>
+        <p class="links"><a href="/reviews">See all reviews &#x2192</a></p>
+    </aside>
+
+
+    <footer>
+        <section>
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="/contact_page">Contact us</a></li>
+                <li><a href="/about_page">About us</a></li>
+                <li><a href="/view_bookings">Bookings</a></li>
+                <li><a href="/review">Leave a review</a></li>
+            </ul>
+        </section>
+
+
+        
+            <p id="login"><a href="/login">Log in &#x2192</a></p>
+        
+        <p> Copyright © All About: Anois National Zoo. All Rights Reserved</p>
+
+
+    </footer>
+</section>
+
+</body>
+</html>
