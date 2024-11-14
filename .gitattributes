@@ -1,2 +1,4 @@
 *.ipynb linguist-documentation
-/javascript/* linguist-documentation
+javascript/*.html linguist-documentation
+javascript/*.css linguist-documentation
+javascript/*.js linguist-documentation
