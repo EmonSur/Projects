@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main{background-image: url("{{ url_for('static', filename='view_bookings.jpg') }}" ); }
+</style>
+
+<section id="view_bookings_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('view_bookings')}}">↻</a></li>
+            {% if g.admin != None %}
+                <li><a href="{{ url_for('admin_page') }}">Admin Page</a></li>
+            {% elif g.employee != None %}
+                <li><a href="{{ url_for('employee_page') }}">Employee Page</a></li>
+            {% endif %}
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section class="form">
+            <p>View your Booking:</p>
+            <form method="POST" action="" novalidate>
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                {{ form.user_id.label }}
+                {{ form.user_id(class="form-control") }}
+                {% for error in form.user_id.errors %}
+                    {{ error }}
+                {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                {{ form.name.label }}
+                {{ form.name(class="form-control") }}
+                {% for error in form.name.errors %}
+                    {{ error }}
+                {% endfor %}
+                </div>
+                <br />
+                {{ form.submit()}}
+            </form>
+
+            {% if bookings %}
+            <section id="all_bookings">
+                {% for booking in bookings %}
+                    <section class="booking">
+                        <span>
+                            <h4>Booking Info:</h4>
+                            <p>Name: {{ booking["name"] }}</p>
+                            <p>Number of Adults Tickets:{{ booking["adult_tickets"] }}</p>
+                            <p>Number of Child Tickets: {{ booking["child_tickets"] }}</p>
+                            <p>Date of Booking: {{ booking["booking_date"] }}</p>
+                        </span>
+                    </section>
+                {% endfor %}
+            </section>
+            {% endif %}
+
+            <p>Want to change your Booking? <a href="{{ url_for('bookings', action='delete')}}">Click Here</a> to change your Booking.</p>
+            <p>You haven't booked with us yet? Or want to make another booking? <a href="{{ url_for('bookings')}}">Click Here</a> to book with us.</p>
+            <p>We look forward for your visit.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="{{ url_for( 'contact_page') }}">Contact us</a></li>
+                <li><a href="{{ url_for( 'about_page') }}">About us</a></li>
+                <li><a href="{{ url_for( 'view_bookings') }}">Bookings</a></li>
+                <li><a href="{{ url_for( 'review') }}">Leave a review</a></li>
+            </ul>
+        </section>
+
+
+        {% if g.admin != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Admin - Log out &#x2192</a></p>
+        {% elif g.employee != None %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Employee - Log out &#x2192</a></p>
+        {% elif g.user == None %}
+            <p id="login"><a href="{{ url_for('login') }}">Log in &#x2192</a></p>
+        {% else %}
+            <p id="logout"><a href="{{ url_for('logout') }}">Log out &#x2192</a></p>
+        {% endif %}
+        <p> Copyright © All About: Anois National Zoo. All Rights Reserved</p>
+
+
+    </footer>
+</section>
+
+{% endblock %}

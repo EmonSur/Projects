@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main {background-image: url("{{ url_for('static', filename='login_page.jpg') }}" ); }
+</style>
+
+<section id="login_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('login')}}">↻</a></li>
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section class="form">
+            <p>Please Log In</p>
+            <form method="POST" action="" novalidate class="form_fields">
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                {{ form.user_id.label }}
+                {{ form.user_id(class="form-control") }}
+                {% for error in form.user_id.errors %}
+                    {{ error }}
+                {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                {{ form.password.label }}
+                {{ form.password(class="form-control") }}
+                {% for error in form.password.errors %}
+                    {{ error }}
+                {% endfor %}
+                </div>
+                <br />
+                {{ form.submit()}}
+            </form>
+
+            <p>You haven't <i>registered</i> yet? <a href="{{ url_for('register')}}">Click Here</a> to register</p>
+            <p><i>Forgot your password?</i> <a href="{{ url_for('reset_password')}}">Click Here</a> to <i>reset</i> your password.</p>
+            <p>And lastly, Employees Log In <a href="{{ url_for('employee_login')}}">Here</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+</section>
+
+{% endblock %}

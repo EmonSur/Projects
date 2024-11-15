@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+
+<style>
+    main{background-image: url("{{ url_for('static', filename='employee_login.jpg') }}" ); }
+</style>
+
+<section id="employee_login_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('employee_login')}}">↻</a></li>
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section class="form">
+            <p>Employees; Please Log In</p>
+            <form method="POST" action="" novalidate class="form_fields">
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                    {{ form.employee_id.label }}
+                    {{ form.employee_id(class="form-control") }}
+                    {% for error in form.employee_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.code.label }}
+                    {{ form.code(class="form-control") }}
+                    {% for error in form.code.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br />
+                {{ form.submit()}}
+            </form>
+
+            <p><b>Please use employee_id = 1, and code = 101 to enter an employee's profile.</b></p>
+
+            <p>All employees have received their own individual code and employee id to be used during login.</p>
+            <p>Please contact your manager if you have forgotten your code or id. </p>
+            <p>Admins; Please Log In <a href="{{ url_for('admin_login') }}">Here</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+</section>
+
+{% endblock %}

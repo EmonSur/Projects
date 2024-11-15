@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main {background-image: url("{{ url_for('static', filename='update_employee_info_page.jpg') }}" ); }
+</style>
+
+<section id="add_update_employee_info_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('add_employee_info')}}">↻</a></li>
+            <li><a href="{{ url_for('admin_page') }}">Admin Homepage</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <section class="form">
+            <p>Would you like to add an employee's information from our database? Here you may do so.</p>
+            <form method="POST" action="" novalidate>
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                    {{ form.employee_id.label }}
+                    {{ form.employee_id(class="form-control") }}
+                    {% for error in form.employee_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.code.label }}
+                    {{ form.code(class="form-control") }}
+                    {% for error in form.code.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.name.label }}
+                    {{ form.name(class="form-control") }}
+                    {% for error in form.name.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.dob.label }}
+                    {{ form.dob(class="form-control") }}
+                    {% for error in form.dob.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.job.label }}
+                    {{ form.job(class="form-control") }}
+                    {% for error in form.job.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.start_date.label }}
+                    {{ form.start_date(class="form-control") }}
+                    {% for error in form.start_date.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+
+                {{ form.submit()}}
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+            <section class="footer-auth">
+                {% if g.admin != None %}
+                    <p><a href="{{ url_for('logout') }}">Admin - Log Out &#x2192</a></p>
+                {% elif g.employee != None %}
+                    <p><a href="{{ url_for('logout') }}">Employee - Log Out &#x2192</a></p>
+                {% elif g.user == None %}
+                    <p><a href="{{ url_for('login') }}">Log In &#x2192</a></p>
+                {% else %}
+                    <p><a href="{{ url_for('logout') }}">Log Out &#x2192</a></p>
+                {% endif %}
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+</section>
+
+{% endblock %}

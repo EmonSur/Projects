@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main {
+        background-image: url("{{ url_for('static', filename='about_page.jpg') }}" );
+    }
+</style>
+
+<section id="about_page" class="not_form_mains">
+    
+     
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('about_page')}}">↻</a></li>
+            {% if g.admin != None %}
+                <li><a href="{{ url_for('admin_page') }}">Admin Page</a></li>
+            {% elif g.employee != None %}
+                <li><a href="{{ url_for('employee_page') }}">Employee Page</a></li>
+            {% endif %}
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section id="about">
+            <h2>About Us</h2>
+            <p> We first opened in September 2014, and have been up and running every since.
+                We may not be Ireland's biggest Zoo, but we like to think it is most definitely worth visiting us.
+            </p>
+
+            <p> Come visit our range of over 200 animals, some of which you'll learn about on this very website. </p>
+            <p> We look forward for your visit.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+            <section class="footer-auth">
+                {% if g.admin != None %}
+                    <p><a href="{{ url_for('logout') }}">Admin - Log Out &#x2192;</a></p>
+                {% elif g.employee != None %}
+                    <p><a href="{{ url_for('logout') }}">Employee - Log Out &#x2192;</a></p>
+                {% elif g.user == None %}
+                    <p><a href="{{ url_for('login') }}">Log In &#x2192;</a></p>
+                {% else %}
+                    <p><a href="{{ url_for('logout') }}">Log Out &#x2192;</a></p>
+                {% endif %}
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+</section>
+
+{% endblock %}

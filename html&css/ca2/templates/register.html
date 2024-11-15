@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<style>
+    main{background-image: url("{{ url_for('static', filename='register_page.jpg') }}" ); }
+</style>
+
+<section id="register_page" class="form_mains">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('register')}}">↻</a></li>
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="form">
+            {% if message %}
+                <p>{{ message }}</p>
+            {% endif %}
+
+            <p>Please Register Your Account:</p>
+            <form method="POST" action="" novalidate class="form_fields">
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                    {{ form.user_id.label }}
+                    {{ form.user_id(class="form-control") }}
+                    {% for error in form.user_id.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.security_q.label }}
+                    {{ form.security_q(class="form-control") }}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.security_ans.label }}
+                    {{ form.security_ans(class="form-control") }}
+                    {% for error in form.security_ans.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="form-group">
+                    {{ form.password.label }}
+                    {{ form.password(class="form-control") }}
+                    {% for error in form.password.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br />
+                <div class="form-group">
+                    {{ form.password2.label }}
+                    {{ form.password2(class="form-control") }}
+                    {% for error in form.password2.errors %}
+                        {{ error }}
+                    {% endfor %}
+                </div>
+                <br />
+                {{ form.submit()}}
+            </form>
+
+            <p>Made a mistake? Have already registered? <a href="{{ url_for('login') }}">Click Here</a> to Log In.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+</section>
+
+{% endblock %}

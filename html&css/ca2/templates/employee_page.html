@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<section id="employee_page">
+    <nav>
+        <ul>
+            <li><a id="refresh" href="{{ url_for('employee_page')}}">↻</a></li>
+            <li><a href="{{ url_for('index') }}">Homepage</a></li>
+            <li><a href="{{ url_for('donate') }}">Donate</a></li>
+            <li><a href="{{ url_for('bookings')}}">Book Tickets &#x2192</a></li>
+        </ul>
+    </nav>
+
+    <main id="employee-main">
+        <h3 class="welcome-message"><i>Welcome back</i>, {{employee["name"] }}</h3>
+        <section id="employee_page_main">
+            <section id="employee_info" class="section">
+                <h4>Employee Information:</h4>
+                <section class="all_info">
+                    <section class="info">
+                        <p>Name: {{ employee["name"] }}</p>
+                        <p>Date of Birth: {{ employee["dob"] }}</p>
+                        <p>Job: {{ employee["job"] }}</p>
+                        <p>Start Date: {{ employee["start_date"] }}</p>
+                    </section>
+                </section>
+            </section>
+
+            <section id="request_off" class="section">
+                <h4>Request a Day Off:</h4>
+                <form method="POST" action="" novalidate>
+                    {{ form.hidden_tag() }}
+                    <div class="form-group">
+                        {{ form.date_begin.label }}
+                        {{ form.date_begin(class="form-control") }}
+                        {% for error in form.date_begin.errors %}
+                            <small class="form-error">{{ error }}</small>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.date_end.label }}
+                        {{ form.date_end(class="form-control") }}
+                        {% for error in form.date_end.errors %}
+                            <small class="form-error">{{ error }}</small>
+                        {% endfor %}
+                    </div>
+                    <div class="form-group">
+                        {{ form.reason.label }}
+                        {{ form.reason(class="form-control") }}
+                        {% for error in form.reason.errors %}
+                            <small class="form-error">{{ error }}</small>
+                        {% endfor %}
+                    </div>
+                    {{ form.submit(class="btn-submit") }}
+                </form>
+                <p class="note">Note: You may only request one day off at a time. To request multiple days, multiple requests must be made.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('contact_page') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('about_page') }}">About Us</a></li>
+                    <li><a href="{{ url_for('view_bookings') }}">View Bookings</a></li>
+                    <li><a href="{{ url_for('review') }}">Leave a Review</a></li>
+                </ul>
+            </section>
+        </div>
+        <p class="footer-note">© 2024 Anois National Zoo. All Rights Reserved.</p>
+    </footer>
+
+{% endblock %}
