@@ -3,7 +3,7 @@ Projects:
 [Personal Dynamic Website](https://emonsur.github.io/webdeva1/)
   
 2. Flask App Website -- Found in html&css ca2 (Individual Project)
-[Flask Dynamic Website](https://emonsur.pythonanywhere.com/)
+[Flask Website](https://emonsur.pythonanywhere.com/)
 
 4. Top Down Client-Side Game -- Found in javascript (Individual Project)
 [Top-Down Client-Side Game](https://emonsur.github.io/webdeva2/)
