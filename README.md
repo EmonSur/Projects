@@ -18,3 +18,5 @@ Projects:
 6. Online Shopping Cart Project - Found in python assignment2 (Individual Project)
 
 7. TKinter Shape Paint Tool - Found in python assignment3 (Individual Project)
+
+8. RGB Colour Palette Manager - Found in java, assignments under java_assignment3 (Individual project)
