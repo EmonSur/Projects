@@ -45,12 +45,12 @@ This repository contains various projects completed as part of my academic and p
 #### 1. **E-commerce Chatbot System**
 - **Type**: Team Project
 - **Location**: `sql/assignment1`
-- **Description**: Collaboratively designed a chatbot system for e-commerce platforms. Includes my contributions to the project (collaborative reports excluded).
+- **Description**: Collaboratively designed a chatbot system for e-commerce platforms. Includes my contributions to the project.
 
 #### 2. **Enhancements to CVAT - Computer Vision Data Annotation Platform**
 - **Type**: Team Project
 - **Location**: `sql/assignment2`
-- **Description**: Developed improvements for CVAT, focusing on enhancing functionality. Includes only my individual contributions (collaborative reports excluded).
+- **Description**: Developed improvements for CVAT, focusing on enhancing functionality. Includes only my individual contributions.
 
 ---
 
