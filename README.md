@@ -20,11 +20,6 @@ This repository contains various projects completed as part of my academic and p
 - **Location**: `html&css/ca1`
 - **Description**: A dynamic personal website showcasing responsiveness and clean design principles.
 
-#### 2. **Flask App Website**
-- **Type**: Individual Project
-- **Location**: `html&css/ca2`
-- **Description**: A Flask-based website integrating dynamic functionality and secure user authentication.
-
 ---
 
 ### Flask Web Development
