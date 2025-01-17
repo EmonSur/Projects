@@ -82,5 +82,5 @@ This repository contains various projects completed as part of my academic and p
 
 #### 3. **RGB Colour Palette Manager**
 - **Type**: Individual Project
-- **Location**: `java/assignments/java_assignment3`
+- **Location**: `java/assignments/java=assignment3`
 - **Description**: A Java-based application for managing RGB color palettes.
