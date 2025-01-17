@@ -72,12 +72,12 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Ray-Tracing Framework Modernization**
 - **Type**: Team Project
-- **Location**: `java/assignments/assignment1
+- **Location**: `java/assignments/java-assignment1`
 - **Description**: Refactored a legacy ray-tracing application, transforming it into a modular and well-documented API. 
 
 #### 2. **Risk Game Codebase Analysis**
 - **Type**: Individual Project
-- **Location**: java/assignments/java-assignment2
+- **Location**: `java/assignments/java-assignment2`
 - **Description**: Conducted a comprehensive analysis of the Risk game codebase to identify various forms of technical debt, including style inconsistencies, structural issues, and strategic shortcuts. Provided recommendations for improving code quality and maintainability.
 
 #### 3. **RGB Colour Palette Manager**
