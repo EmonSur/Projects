@@ -19,6 +19,7 @@ This repository contains various projects completed as part of my academic and p
 - **Type**: Individual Project
 - **Location**: `html&css/ca1`
 - **Description**: A dynamic personal website showcasing responsiveness and clean design principles.
+- [Link](https://emonsur.github.io/Dynamic-Personal-Website/)
 
 ---
 
@@ -28,6 +29,7 @@ This repository contains various projects completed as part of my academic and p
 - **Type**: Individual Project
 - **Location**: `html&css/ca2`
 - **Description**: Implemented user authentication and designed a responsive interface.
+- [Link](https://emonsur.pythonanywhere.com/)
 
 ---
 
@@ -37,6 +39,7 @@ This repository contains various projects completed as part of my academic and p
 - **Type**: Individual Project
 - **Location**: `javascript/ca`
 - **Description**: A 2D game featuring interactive gameplay with multiple levels and challenges.
+- [Link](https://emonsur.github.io/2D-Client-Side-Game/)
 
 ---
 
