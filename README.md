@@ -10,6 +10,7 @@ This repository contains various projects completed as part of my academic and p
 - [SQL](#sql)
 - [Python](#python)
 - [Java](#java)
+- [Go](#go)
 
 ---
 
