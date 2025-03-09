@@ -84,3 +84,12 @@ This repository contains various projects completed as part of my academic and p
 - **Type**: Individual Project
 - **Location**: `java/assignments/java=assignment3`
 - **Description**: A Java-based application for managing RGB color palettes.
+
+---
+
+### Go
+#### 1. **Leda Text Editor** 
+- Type: Team Project
+- Location: [Leda-Text-Editor Repo](https://github.com/Leda-Editor/Leda-Text-Editor)
+- Description: Contributed to the development of a feature-rich, lightweight text editor with a modern interface, Markdown preview, customizable themes, built-in terminal, and keyboard shortcuts for efficiency. Implemented features such as real-time Markdown rendering, find-and-replace functionality, zooming, and theme customization.
+
