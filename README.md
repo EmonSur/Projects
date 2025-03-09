@@ -17,7 +17,7 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Personal Dynamic Website** - [Link](https://emonsur.github.io/Dynamic-Personal-Website/)
 - **Type**: Individual Project
-- **Location**: `html&css/ca1`
+- **Location**: [Personal Website Repo](https://github.com/EmonSur/Dynamic-Personal-Website)
 - **Description**: A dynamic personal website showcasing responsiveness and clean design principles
 
 ---
@@ -26,7 +26,7 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Flask App Website** - [Link](https://emonsur.pythonanywhere.com/)
 - **Type**: Individual Project
-- **Location**: `html&css/ca2`
+- **Location**: [Flask App Repo](https://github.com/EmonSur/Flask-Website)
 - **Description**: Implemented user authentication and designed a responsive interface.
 
 ---
@@ -35,7 +35,7 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Top Down Client-Side Game** - [Link](https://emonsur.github.io/2D-Client-Side-Game/)
 - **Type**: Individual Project
-- **Location**: `javascript/ca`
+- **Location**: [Javascript Game Repo](https://github.com/EmonSur/2D-Client-Side-Game)
 - **Description**: A 2D game featuring interactive gameplay with multiple levels and challenges.
 
 ---
