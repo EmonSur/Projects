@@ -1,0 +1,30 @@
+.question {
+    color: white;
+    background-color: black;
+}
+
+body {
+    color: blue;
+    background-color: lightgray;
+}
+
+a, em {
+    color: yellow;
+    background-color: lightsalmon;
+}
+
+b, li > a {
+    color: magenta;
+}
+
+section li {
+    background-color: lightsalmon;
+}
+
+li > b {
+    color: lightgray;
+}
+
+nav li + li  {
+    color: yellow;
+}

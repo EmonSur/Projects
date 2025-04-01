@@ -1,0 +1,130 @@
+/*core css*/
+:root{
+    --body-txt-color: black;
+    --base-color: white;
+    --heading-bg-color: #008b8b;
+    --bold-txt-color: #EC7063}
+
+main h1, h2, nav a{
+    color:var(--base-color);
+    background-color:var(--heading-bg-color)}
+header{display: inline;}
+header h1{
+    color:var(--heading-bg-color);
+    text-align: center;}
+a, footer, i{color:var(--heading-bg-color)}
+b {color:var(--bold-color);}
+body {color:var(--body-txt-color);}
+h1 {font-size: 4em;}
+img, iframe{display: block;margin: 0 auto;}
+
+/*html*/
+html {
+    background-image: url("chicken7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll ;
+    background-size:cover;}
+
+/*body*/
+body {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 85%;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid var(--heading-bg-color);
+    border-radius: 2em;}
+
+body{display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: "top top"
+    "middle_left middle_right"
+    "bottom bottom";
+    column-gap: 2em;
+    row-gap: 2em;}
+
+header{grid-area: top;}
+nav{grid-area: middle_left;}
+main{grid-area: middle_right;}
+footer{grid-area: bottom;}
+
+/*nav*/
+nav a{
+    display: block;
+    padding: 1em;
+    text-align: left;
+    text-decoration: none;}
+
+nav{    
+    background-color:var(--base-color);
+    padding: 1em;
+    border: 1px solid var(--heading-bg-color);
+    border-radius: 2em;}
+
+nav li{
+    margin: 1em auto;
+    border: 1px dashed var(--heading-bg-color);
+    padding: 0.5em;}
+
+/*main*/
+#aviophobia, #repetition, #addiction, #hypnosis{
+    background-color:var(--base-color);
+    padding: 3em;
+    border: 1px solid var(--heading-bg-color);
+    border-radius: 2em}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "top top"
+    "middle_left middle_right"
+    "bottom_left bottom_right";
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+#intro{grid-area: top;display: block;}
+#aviophobia{grid-area: middle_left;}
+#repetition{grid-area: middle_right;}
+#addiction{grid-area: bottom_left;}
+#hypnosis{grid-area: bottom_right;}
+
+/*figcaption*/
+figcaption {
+    text-align: center;
+    width: 75%;
+    margin: 1em auto;
+    border: 1px dashed var(--heading-bg-color);
+    padding: 1em;}
+
+/*scrap css*/
+/*flexbox*//*
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-basis: 40%;
+    align-content: space-around;
+    gap: 2em;
+    flex-grow: 2 1 2 1;
+}
+
+/*sections*/
+/*h2 {column-span: all;}*/
+
+/*#aviophobia, #repetition, #addiction, #hypnosis{
+    column-width: 20em;
+    column-gap: 3em;}
+
+#aviophobia, #addiction{
+    margin-right: auto;
+    margin-bottom: -2em;}
+
+#repetition{  
+    margin-left: auto;
+    margin-bottom: -2em;}
+
+#hypnosis {
+    margin-left: auto;
+    margin-bottom: auto;}

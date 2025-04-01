@@ -1,0 +1,29 @@
+/*body{color:#00f;background:#d3d3d3}
+.question{background:#000;color:#fff}
+p b,a{color:#f0f}
+a,em,p+ul>li{background:#ffa07a}
+nav li+li,p a,em{color:#ff0}
+b{color:#d3d3d3}
+*/
+/*f0f*-magenta/
+/*#d3d3d3-lightgray*/
+/*#ffa07a*/
+/*ff0-yellow*/
+/*00f-blue*/
+/*000-black*/
+/*fff-white*/
+
+
+/*body{color:#00f;background:#d3d3d3}
+.question{color:#fff;background:#000}
+a,em,p+ul>li{background:#ffa07a}
+p b,a{color:#f0f}
+b{color:#d3d3d3}
+nav li+li,p a,em{color:#ff0}*/
+
+html{background:#d3d3d3;color:#00F}
+.question{background:#000;color:#FFF}
+p b,a{color:#F0F}
+a,em,#bow li{background:#ffa07a}
+nav li+li,p a,em{color:#FF0}
+b{color:#d3d3d3}
