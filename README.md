@@ -45,12 +45,12 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **E-commerce Chatbot System**
 - **Type**: Team Project
-- **Location**: `sql/assignment1`
+- **Location**: `Sql/assignment1`
 - **Description**: Collaboratively designed a chatbot system for e-commerce platforms. Includes my contributions to the project.
 
 #### 2. **Enhancements to CVAT - Computer Vision Data Annotation Platform**
 - **Type**: Team Project
-- **Location**: `sql/assignment2`
+- **Location**: `Sql/assignment2`
 - **Description**: Developed improvements for CVAT, focusing on enhancing functionality. Includes only my individual contributions.
 
 ---
@@ -59,12 +59,12 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Online Shopping Cart Project**
 - **Type**: Individual Project
-- **Location**: `python/assignment2`
+- **Location**: `Python-Programming/assignment2`
 - **Description**: Designed and implemented a functional shopping cart system with backend logic.
 
 #### 2. **TKinter Shape Paint Tool**
 - **Type**: Individual Project
-- **Location**: `python/assignment3`
+- **Location**: `Python-Programming/assignment3`
 - **Description**: A desktop application allowing users to draw and color shapes using TKinter.
 
 ---
@@ -73,22 +73,23 @@ This repository contains various projects completed as part of my academic and p
 
 #### 1. **Ray-Tracing Framework Modernization**
 - **Type**: Team Project
-- **Location**: `java/assignments/java-assignment1`
+- **Location**: `Java-Programming/assignments/java-assignment1`
 - **Description**: Refactored a legacy ray-tracing application, transforming it into a modular and well-documented API. 
 
 #### 2. **Risk Game Codebase Analysis**
 - **Type**: Individual Project
-- **Location**: `java/assignments/java-assignment2`
+- **Location**: `Java-Programming/assignments/java-assignment2`
 - **Description**: Conducted a comprehensive analysis of the Risk game codebase to identify various forms of technical debt, including style inconsistencies, structural issues, and strategic shortcuts. Provided recommendations for improving code quality and maintainability.
 
 #### 3. **RGB Colour Palette Manager**
 - **Type**: Individual Project
-- **Location**: `java/assignments/java=assignment3`
+- **Location**: `Java-Programming/assignments/java=assignment3`
 - **Description**: A Java-based application for managing RGB color palettes.
 
 ---
 
 ### Go
+
 #### 1. **Leda Text Editor** 
 - Type: Team Project
 - Location: [Leda-Text-Editor Repo](https://github.com/Leda-Editor/Leda-Text-Editor)

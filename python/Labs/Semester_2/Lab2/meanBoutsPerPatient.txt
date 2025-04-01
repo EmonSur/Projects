@@ -1,3 +1,0 @@
-Patient 1 had 5.45 inflammatory bouts on average. 
-Patient 2 had 5.425 inflammatory bouts on average. 
-Patient 3 had 6.1 inflammatory bouts on average. 
