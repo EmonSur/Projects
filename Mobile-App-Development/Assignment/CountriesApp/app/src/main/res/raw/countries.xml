@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country>
+        <name>Afghanistan</name>
+        <capital>Kabul</capital>
+        <image>af.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Afghanistan</url>
+        <continent>Asia</continent>
+        <currency>Afghani</currency>
+    </country>
+    <country>
+        <name>Albania</name>
+        <capital>Tirana</capital>
+        <image>al.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Albania</url>
+        <continent>Europe</continent>
+        <currency>Lek</currency>
+    </country>
+    <country>
+        <name>Algeria</name>
+        <capital>Algiers</capital>
+        <image>dz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Algeria</url>
+        <continent>Africa</continent>
+        <currency>Dinar</currency>
+    </country>
+    <country>
+        <name>Andorra</name>
+        <capital>Andorra la Vella</capital>
+        <image>ad.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Andorra</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Angola</name>
+        <capital>Luanda</capital>
+        <image>ao.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Angola</url>
+        <continent>Africa</continent>
+        <currency>New Kwanza</currency>
+    </country>
+    <country>
+        <name>Antigua and Barbuda</name>
+        <capital>Saint John's</capital>
+        <image>ag.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Antigua_and_Barbuda</url>
+        <continent>North America</continent>
+        <currency>East Caribbean dollar</currency>
+    </country>
+    <country>
+        <name>Argentina</name>
+        <capital>Buenos Aires</capital>
+        <image>ar.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Argentina</url>
+        <continent>South America</continent>
+        <currency>Peso</currency>
+    </country>
+    <country>
+        <name>Armenia</name>
+        <capital>Yerevan</capital>
+        <image>am.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Armenia</url>
+        <continent>Asia</continent>
+        <currency>Dram</currency>
+    </country>
+    <country>
+        <name>Australia</name>
+        <capital>Canberra</capital>
+        <image>au.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Australia</url>
+        <continent>Oceania</continent>
+        <currency>Australian dollar</currency>
+    </country>
+    <country>
+        <name>Austria</name>
+        <capital>Vienna</capital>
+        <image>at.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Austria</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Azerbaijan</name>
+        <capital>Baku</capital>
+        <image>az.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Azerbaijan</url>
+        <continent>Asia</continent>
+        <currency>Manat</currency>
+    </country>
+    <country>
+        <name>The Bahamas</name>
+        <capital>Nassau</capital>
+        <image>bs.jpg</image>
+        <url>https://en.wikipedia.org/wiki/The_Bahamas</url>
+        <continent>North America</continent>
+        <currency>Bahamian dollar</currency>
+    </country>
+    <country>
+        <name>Bahrain</name>
+        <capital>Manama</capital>
+        <image>bh.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bahrain</url>
+        <continent>Asia</continent>
+        <currency>Bahraini dinar</currency>
+    </country>
+    <country>
+        <name>Bangladesh</name>
+        <capital>Dhaka</capital>
+        <image>bd.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bangladesh</url>
+        <continent>Asia</continent>
+        <currency>Taka</currency>
+    </country>
+    <country>
+        <name>Barbados</name>
+        <capital>Bridgetown</capital>
+        <image>bb.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Barbados</url>
+        <continent>North America</continent>
+        <currency>Barbados dollar</currency>
+    </country>
+    <country>
+        <name>Belarus</name>
+        <capital>Minsk</capital>
+        <image>by.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Belarus</url>
+        <continent>Europe</continent>
+        <currency>Belorussian ruble</currency>
+    </country>
+    <country>
+        <name>Belgium</name>
+        <capital>Brussels</capital>
+        <image>be.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Belgium</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Belize</name>
+        <capital>Belmopan</capital>
+        <image>bz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Belize</url>
+        <continent>North America</continent>
+        <currency>Belize dollar</currency>
+    </country>
+    <country>
+        <name>Benin</name>
+        <capital>Porto Novo[</capital>
+        <image>bj.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Benin</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Bhutan</name>
+        <capital>Thimphu</capital>
+        <image>bt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bhutan</url>
+        <continent>Asia</continent>
+        <currency>Ngultrum</currency>
+    </country>
+    <country>
+        <name>Bolivia</name>
+        <capital>Sucre</capital>
+        <image>bo.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bolivia</url>
+        <continent>South America</continent>
+        <currency>Boliviano</currency>
+    </country>
+    <country>
+        <name>Bosnia and Herzegovina</name>
+        <capital>Sarajevo</capital>
+        <image>ba.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina</url>
+        <continent>Europe</continent>
+        <currency>Bosnia Mark</currency>
+    </country>
+    <country>
+        <name>Botswana</name>
+        <capital>Gaborone</capital>
+        <image>bw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Botswana</url>
+        <continent>Africa</continent>
+        <currency>Pula</currency>
+    </country>
+    <country>
+        <name>Brazil</name>
+        <capital>Brasilia</capital>
+        <image>br.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Brazil</url>
+        <continent>South America</continent>
+        <currency>Real</currency>
+    </country>
+    <country>
+        <name>Brunei</name>
+        <capital>Bandar Seri Begawan</capital>
+        <image>bn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Brunei</url>
+        <continent>Asia</continent>
+        <currency>Brunei dollar</currency>
+    </country>
+    <country>
+        <name>Bulgaria</name>
+        <capital>Sofia</capital>
+        <image>bg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Bulgaria</url>
+        <continent>Europe</continent>
+        <currency>Lev</currency>
+    </country>
+    <country>
+        <name>Burkina Faso</name>
+        <capital>gh</capital>
+        <image>bf.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Burkina_Faso</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Burundi</name>
+        <capital>Gitega</capital>
+        <image>bi.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Burundi</url>
+        <continent>Africa</continent>
+        <currency>Burundi franc</currency>
+    </country>
+    <country>
+        <name>Cambodia</name>
+        <capital>Phnom Penh</capital>
+        <image>kh.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Cambodia</url>
+        <continent>Asia</continent>
+        <currency>Riel</currency>
+    </country>
+    <country>
+        <name>Cameroon</name>
+        <capital>Yaounde</capital>
+        <image>cm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Cameroon</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Canada</name>
+        <capital>Ottawa</capital>
+        <image>ca.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Canada</url>
+        <continent>North America</continent>
+        <currency>Canadian dollar</currency>
+    </country>
+    <country>
+        <name>Cape Verde</name>
+        <capital>Praia</capital>
+        <image>cv.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Cape_Verde</url>
+        <continent>Africa</continent>
+        <currency>Cape Verdean Escudo</currency>
+    </country>
+    <country>
+        <name>Central African Republic</name>
+        <capital>Bangui</capital>
+        <image>cf.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Central_African_Republic</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Chad</name>
+        <capital>N'Djamena</capital>
+        <image>td.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Chad</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Chile</name>
+        <capital>Santiago</capital>
+        <image>cl.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Chile</url>
+        <continent>South America</continent>
+        <currency>Chilean Peso</currency>
+    </country>
+    <country>
+        <name>China</name>
+        <capital>Beijing</capital>
+        <image>cn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/China</url>
+        <continent>Asia</continent>
+        <currency>Chinese Yuan</currency>
+    </country>
+    <country>
+        <name>Colombia</name>
+        <capital>Bogota</capital>
+        <image>co.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Colombia</url>
+        <continent>South America</continent>
+        <currency>Colombian Peso</currency>
+    </country>
+    <country>
+        <name>Comoros</name>
+        <capital>Moroni</capital>
+        <image>cm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Comoros</url>
+        <continent>Africa</continent>
+        <currency>Franc</currency>
+    </country>
+    <country>
+        <name>Democratic Republic of the Congo</name>
+        <capital>Kinshasa</capital>
+        <image>cd.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo</url>
+        <continent>Africa</continent>
+        <currency>Congolese Franc</currency>
+    </country>
+    <country>
+        <name>Republic of the Congo</name>
+        <capital>Brazzaville</capital>
+        <image>cg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Republic_of_the_Congo</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Costa Rica</name>
+        <capital>San Jose</capital>
+        <image>cr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Costa_Rica</url>
+        <continent>North America</continent>
+        <currency>Colón</currency>
+    </country>
+    <country>
+        <name>Côte d'Ivoire</name>
+        <capital>Yamoussoukro</capital>
+        <image>ci.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Ivory_Coast</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Croatia</name>
+        <capital>Zagreb</capital>
+        <image>hr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Croatia</url>
+        <continent>Europe</continent>
+        <currency>Croatian</currency>
+    </country>
+    <country>
+        <name>Cuba</name>
+        <capital>Havana</capital>
+        <image>cu.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Cuba</url>
+        <continent>North America</continent>
+        <currency>Cuban Peso</currency>
+    </country>
+    <country>
+        <name>Cyprus</name>
+        <capital>Nicosia</capital>
+        <image>cy.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Cyprus</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Czech Republic</name>
+        <capital>Prague</capital>
+        <image>cz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Czech_Republic</url>
+        <continent>Europe</continent>
+        <currency>Koruna</currency>
+    </country>
+    <country>
+        <name>Denmark</name>
+        <capital>Copenhagen</capital>
+        <image>dk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Denmark</url>
+        <continent>Europe</continent>
+        <currency>Danish Krone</currency>
+    </country>
+    <country>
+        <name>Djibouti</name>
+        <capital>Djibouti</capital>
+        <image>dj.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Djibouti</url>
+        <continent>Africa</continent>
+        <currency>Djiboutian Franc</currency>
+    </country>
+    <country>
+        <name>Dominica</name>
+        <capital>Roseau</capital>
+        <image>dm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Denmark</url>
+        <continent>North America</continent>
+        <currency>East Caribbean Dollar</currency>
+    </country>
+    <country>
+        <name>Dominican Republic</name>
+        <capital>Santo Domingo</capital>
+        <image>dor.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Dominican_Republic</url>
+        <continent>North America</continent>
+        <currency>Dominican Peso</currency>
+    </country>
+    <country>
+        <name>Ecuador</name>
+        <capital>Quito</capital>
+        <image>ec.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Ecuador</url>
+        <continent>South America</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Egypt</name>
+        <capital>Cairo</capital>
+        <image>eg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Egypt</url>
+        <continent>Africa</continent>
+        <currency>Egyptian pound</currency>
+    </country>
+    <country>
+        <name>El Salvador</name>
+        <capital>San Salvador</capital>
+        <image>sv.jpg</image>
+        <url>https://en.wikipedia.org/wiki/El_Savador</url>
+        <continent>North America</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Equatorial Guinea</name>
+        <capital>Malabo</capital>
+        <image>gq.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Equatorial_Guinea</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Eritrea</name>
+        <capital>Asmara</capital>
+        <image>er.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Eritrea</url>
+        <continent>Africa</continent>
+        <currency>Nakfa</currency>
+    </country>
+    <country>
+        <name>Estonia</name>
+        <capital>Tallinn</capital>
+        <image>ee.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Estonia</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Eswatini</name>
+        <capital>Mbabane</capital>
+        <image>sz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Eswatini</url>
+        <continent>Africa</continent>
+        <currency>Swazi Lilangeni</currency>
+    </country>
+    <country>
+        <name>Ethiopia</name>
+        <capital>Addis Ababa</capital>
+        <image>et.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Ethiopia</url>
+        <continent>Africa</continent>
+        <currency>Birr</currency>
+    </country>
+    <country>
+        <name>Fiji</name>
+        <capital>Suva</capital>
+        <image>fj.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Fiji</url>
+        <continent>Africa</continent>
+        <currency>Fiji dollar</currency>
+    </country>
+    <country>
+        <name>Finland</name>
+        <capital>Helsinki</capital>
+        <image>fi.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Finland</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>France</name>
+        <capital>Paris</capital>
+        <image>fr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/France</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Gabon</name>
+        <capital>Libreville</capital>
+        <image>ga.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Gabon</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>The Gambia</name>
+        <capital>Banjul</capital>
+        <image>gm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Gambia</url>
+        <continent>Africa</continent>
+        <currency>Dalasi</currency>
+    </country>
+    <country>
+        <name>Georgia</name>
+        <capital>Tbilisi</capital>
+        <image>ge.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Georgia</url>
+        <continent>Asia</continent>
+        <currency>Lari</currency>
+    </country>
+    <country>
+        <name>Germany</name>
+        <capital>Berlin</capital>
+        <image>de.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Germany</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Ghana</name>
+        <capital>Accra</capital>
+        <image>gh.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Ghana</url>
+        <continent>Africa</continent>
+        <currency>Cedi</currency>
+    </country>
+    <country>
+        <name>Greece</name>
+        <capital>Athens</capital>
+        <image>gr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Greece</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Grenada</name>
+        <capital>Saint George's</capital>
+        <image>gd.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Grenada</url>
+        <continent>North America</continent>
+        <currency>East Caribbean Dollar</currency>
+    </country>
+    <country>
+        <name>Guatemala</name>
+        <capital>Guatemala City</capital>
+        <image>gt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Guatemala</url>
+        <continent>	North America</continent>
+        <currency>Quetzal</currency>
+    </country>
+    <country>
+        <name>Guinea</name>
+        <capital>Conakry</capital>
+        <image>gn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Guinea</url>
+        <continent>Africa</continent>
+        <currency>Guinean Franc</currency>
+    </country>
+    <country>
+        <name>Guinea-Bissau</name>
+        <capital>Bissau</capital>
+        <image>gw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Guinea-Bissau</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Guyana</name>
+        <capital>Georgetown</capital>
+        <image>gy.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Guyana</url>
+        <continent>South America</continent>
+        <currency>Guyanese Dollar</currency>
+    </country>
+    <country>
+        <name>Haiti</name>
+        <capital>Port au Prince</capital>
+        <image>ht.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Haiti</url>
+        <continent>North America</continent>
+        <currency>Gourde</currency>
+    </country>
+    <country>
+        <name>Honduras</name>
+        <capital>Tegucigalpa</capital>
+        <image>hn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Honduras</url>
+        <continent>North America</continent>
+        <currency>Lempira</currency>
+    </country>
+    <country>
+        <name>Hungary</name>
+        <capital>Budapest</capital>
+        <image>hu.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Hungary</url>
+        <continent>Europe</continent>
+        <currency>Lempira</currency>
+    </country>
+    <country>
+        <name>Iceland</name>
+        <capital>Reykjavik</capital>
+        <image>is.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Iceland</url>
+        <continent>Europe</continent>
+        <currency>Icelandic Króna</currency>
+    </country>
+    <country>
+        <name>India</name>
+        <capital>New Delhi</capital>
+        <image>in.jpg</image>
+        <url>https://en.wikipedia.org/wiki/India</url>
+        <continent>Asia</continent>
+        <currency>Indian Rupee</currency>
+    </country>
+    <country>
+        <name>Indonesia</name>
+        <capital>Jakarta</capital>
+        <image>id.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Indonesia</url>
+        <continent>Asia</continent>
+        <currency>Rupiah</currency>
+    </country>
+    <country>
+        <name>Iran</name>
+        <capital>Tehran</capital>
+        <image>ir.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Iran</url>
+        <continent>Asia</continent>
+        <currency>Rial</currency>
+    </country>
+    <country>
+        <name>Iraq</name>
+        <capital>Baghdad</capital>
+        <image>iq.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Iraq</url>
+        <continent>Asia</continent>
+        <currency>Iraqi Dinar</currency>
+    </country>
+    <country>
+        <name>Ireland</name>
+        <capital>Dublin</capital>
+        <image>ie.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Republic_of_Ireland</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Israel</name>
+        <capital>Jerusalem</capital>
+        <image>il.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Israel</url>
+        <continent>Asia</continent>
+        <currency>Shekel</currency>
+    </country>
+    <country>
+        <name>Italy</name>
+        <capital>Rome</capital>
+        <image>it.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Italy</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Jamaica</name>
+        <capital>Kingston</capital>
+        <image>jm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Jamaica</url>
+        <continent>North America</continent>
+        <currency>Jamaican Dollar</currency>
+    </country>
+    <country>
+        <name>Japan</name>
+        <capital>Tokyo</capital>
+        <image>jp.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Japan</url>
+        <continent>Asia</continent>
+        <currency>Yen</currency>
+    </country>
+    <country>
+        <name>Jordan</name>
+        <capital>Amman</capital>
+        <image>jo.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Jordan</url>
+        <continent>Asia</continent>
+        <currency>Jordanian Dinar</currency>
+    </country>
+    <country>
+        <name>Kazakhstan</name>
+        <capital>Astana</capital>
+        <image>kz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Kazakhstan</url>
+        <continent>Asia</continent>
+        <currency>Tenge</currency>
+    </country>
+    <country>
+        <name>Kenya</name>
+        <capital>Nairobi</capital>
+        <image>ke.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Kenya</url>
+        <continent>Africa</continent>
+        <currency>Kenyan Shilling</currency>
+    </country>
+    <country>
+        <name>Kiribati</name>
+        <capital>Tarawa Atoll</capital>
+        <image>ki.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Kiribati</url>
+        <continent>Oceania</continent>
+        <currency>Kiribati Dollar</currency>
+    </country>
+    <country>
+        <name>Kosovo</name>
+        <capital>Pristina</capital>
+        <image>xk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Kosovo</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Kuwait</name>
+        <capital>Kuwait City</capital>
+        <image>kw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Kuwait</url>
+        <continent>Asia</continent>
+        <currency>Kuwaiti Dinar</currency>
+    </country>
+    <country>
+        <name>Kyrgyzstan</name>
+        <capital>Bishkek</capital>
+        <image>kg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/kyrgyzstan</url>
+        <continent>Asia</continent>
+        <currency>Kyrgystani Som</currency>
+    </country>
+    <country>
+        <name>Laos</name>
+        <capital>Vientiane</capital>
+        <image>la.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Laos</url>
+        <continent>Asia</continent>
+        <currency>New Kip</currency>
+    </country>
+    <country>
+        <name>Latvia</name>
+        <capital>Riga</capital>
+        <image>lv.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Latvia</url>
+        <continent>Europe</continent>
+        <currency>Lats</currency>
+    </country>
+    <country>
+        <name>Lebanon</name>
+        <capital>Beirut</capital>
+        <image>lb.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Lebanon</url>
+        <continent>Asia</continent>
+        <currency>Lebanese Pound</currency>
+    </country>
+    <country>
+        <name>Lesotho</name>
+        <capital>Maseru</capital>
+        <image>ls.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Lesotho</url>
+        <continent>Africa</continent>
+        <currency>Maluti</currency>
+    </country>
+    <country>
+        <name>Liberia</name>
+        <capital>Monrovia</capital>
+        <image>lr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Liberia</url>
+        <continent>Africa</continent>
+        <currency>Liberian Dollar</currency>
+    </country>
+    <country>
+        <name>Libya</name>
+        <capital>Tripoli</capital>
+        <image>ly.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Libya</url>
+        <continent>Africa</continent>
+        <currency>Libyan Dinar</currency>
+    </country>
+    <country>
+        <name>Liechtenstein</name>
+        <capital>Vaduz</capital>
+        <image>li.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Liechtenstein</url>
+        <continent>Europe</continent>
+        <currency>Swiss Franc</currency>
+    </country>
+    <country>
+        <name>Lithuania</name>
+        <capital>Vilnius</capital>
+        <image>lt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Lithuania</url>
+        <continent>Europe</continent>
+        <currency>Litas</currency>
+    </country>
+    <country>
+        <name>Luxembourg</name>
+        <capital>gLuxembourg</capital>
+        <image>lu.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Luxembourg</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Madagascar</name>
+        <capital>Antananarivo</capital>
+        <image>mg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Madagascar</url>
+        <continent>Africa</continent>
+        <currency>Malagasy Ariary</currency>
+    </country>
+    <country>
+        <name>Malawi</name>
+        <capital>Lilongwe</capital>
+        <image>mw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Malawi</url>
+        <continent>Africa</continent>
+        <currency>Kwacha</currency>
+    </country>
+    <country>
+        <name>Malaysia</name>
+        <capital>Kuala Lumpur</capital>
+        <image>my.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Malaysia</url>
+        <continent>Asia</continent>
+        <currency>Ringgit</currency>
+    </country>
+    <country>
+        <name>Maldives</name>
+        <capital>Male</capital>
+        <image>mv.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Maldives</url>
+        <continent>Asia</continent>
+        <currency>Rufiyaa</currency>
+    </country>
+    <country>
+        <name>Mali</name>
+        <capital>Bamako</capital>
+        <image>ml.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mali</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Malta</name>
+        <capital>Valletta</capital>
+        <image>mt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Malta</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Marshall Islands</name>
+        <capital>Majuro</capital>
+        <image>mh.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Marshall_Islands</url>
+        <continent>Oceania</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Mauritania</name>
+        <capital>Nouakchott</capital>
+        <image>mr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mauritania</url>
+        <continent>Africa</continent>
+        <currency>Ouguiya</currency>
+    </country>
+    <country>
+        <name>Mauritius</name>
+        <capital>Port Louis</capital>
+        <image>mu.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mauritiusa</url>
+        <continent>Africa</continent>
+        <currency>Mauritian Rupee</currency>
+    </country>
+    <country>
+        <name>Mexico</name>
+        <capital>Mexico City</capital>
+        <image>mx.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mexico</url>
+        <continent>North America</continent>
+        <currency>Mexican Peso</currency>
+    </country>
+    <country>
+        <name>Micronesia</name>
+        <capital>Palikir</capital>
+        <image>fm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Micronesia</url>
+        <continent>Oceania</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Moldova</name>
+        <capital>Chisinau</capital>
+        <image>md.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Moldova</url>
+        <continent>Europe</continent>
+        <currency>Leu</currency>
+    </country>
+    <country>
+        <name>Monaco</name>
+        <capital>Monaco</capital>
+        <image>mc.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Morocco</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Mongolia</name>
+        <capital>Ulaanbaatar</capital>
+        <image>mn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mongolia</url>
+        <continent>Asia</continent>
+        <currency>Togrog</currency>
+    </country>
+    <country>
+        <name>Montenegro</name>
+        <capital>Podgorica</capital>
+        <image>me.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Montengro</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Morocco</name>
+        <capital>Rabat</capital>
+        <image>ma.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Morocco</url>
+        <continent>Africa</continent>
+        <currency>Dirham</currency>
+    </country>
+    <country>
+        <name>Mozambique</name>
+        <capital>Maputo</capital>
+        <image>mz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Mozambique</url>
+        <continent>Africa</continent>
+        <currency>Metical</currency>
+    </country>
+    <country>
+        <name>Myanmar</name>
+        <capital>Nay Pyi Taw</capital>
+        <image>mm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Myanmar</url>
+        <continent>Asia</continent>
+        <currency>Kyat</currency>
+    </country>
+    <country>
+        <name>Namibia</name>
+        <capital>Windhoek</capital>
+        <image>na.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Namibia</url>
+        <continent>Africa</continent>
+        <currency>Namibian Dollar</currency>
+    </country>
+    <country>
+        <name>Nauru</name>
+        <capital>	Yaren</capital>
+        <image>nr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Nauru</url>
+        <continent>Oceania</continent>
+        <currency>Australian Dollar</currency>
+    </country>
+    <country>
+        <name>Nepal</name>
+        <capital>Kathmandu</capital>
+        <image>np.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Nepal</url>
+        <continent>Asia</continent>
+        <currency>Nepalese Rupee</currency>
+    </country>
+    <country>
+        <name>Netherlands</name>
+        <capital>Amsterdam</capital>
+        <image>nl.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Netherlands</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>New Zealand</name>
+        <capital>Wellington</capital>
+        <image>nz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/New_Zealand</url>
+        <continent>Oceania</continent>
+        <currency>New Zealand Dollar</currency>
+    </country>
+    <country>
+        <name>Nicaragua</name>
+        <capital>Managua</capital>
+        <image>ni.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Nicagarua</url>
+        <continent>North America</continent>
+        <currency>Nicaraguan Córdoba</currency>
+    </country>
+    <country>
+        <name>Niger</name>
+        <capital>Niamey</capital>
+        <image>ne.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Niger</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Nigeria</name>
+        <capital>Abuja</capital>
+        <image>ng.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Nigeria</url>
+        <continent>Africa</continent>
+        <currency>Naira</currency>
+    </country>
+    <country>
+        <name>North Korea</name>
+        <capital>Pyongyang</capital>
+        <image>kp.jpg</image>
+        <url>https://en.wikipedia.org/wiki/North_Korea</url>
+        <continent>Asia</continent>
+        <currency>North Korean Won</currency>
+    </country>
+    <country>
+        <name>North Macedonia</name>
+        <capital>Skopje</capital>
+        <image>mk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/North_Macedonia</url>
+        <continent>Europe</continent>
+        <currency>Denar</currency>
+    </country>
+    <country>
+        <name>Norway</name>
+        <capital>Oslo</capital>
+        <image>no.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Norway</url>
+        <continent>Europe</continent>
+        <currency>Norwegian Krone</currency>
+    </country>
+    <country>
+        <name>Oman</name>
+        <capital>Muscat</capital>
+        <image>om.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Oman</url>
+        <continent>Asia</continent>
+        <currency>Omani Rial</currency>
+    </country>
+    <country>
+        <name>Pakistan</name>
+        <capital>Islamabad</capital>
+        <image>pk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Pakistan</url>
+        <continent>Asia</continent>
+        <currency>Pakistani Rupee</currency>
+    </country>
+    <country>
+        <name>Palau</name>
+        <capital>Ngerulmud</capital>
+        <image>pw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Palau</url>
+        <continent>Oceania</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Palestine</name>
+        <capital>Jerusalem</capital>
+        <image>ps.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Palestine</url>
+        <continent>Asia</continent>
+        <currency>Palestine Pound</currency>
+    </country>
+    <country>
+        <name>Panama</name>
+        <capital>Panama City</capital>
+        <image>pa.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Panama</url>
+        <continent>South America</continent>
+        <currency>Panamanian Balboa/U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Papua New Guinea</name>
+        <capital>Port Moresby</capital>
+        <image>pg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Papua_New_Guinea</url>
+        <continent>Asia</continent>
+        <currency>Kina</currency>
+    </country>
+    <country>
+        <name>Paraguay</name>
+        <capital>Asuncion</capital>
+        <image>py.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Paraguay</url>
+        <continent>South America</continent>
+        <currency>Guaraní</currency>
+    </country>
+    <country>
+        <name>Peru</name>
+        <capital>Lima</capital>
+        <image>pe.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Peru</url>
+        <continent>South America</continent>
+        <currency>Sol</currency>
+    </country>
+    <country>
+        <name>Philippines</name>
+        <capital>Manila</capital>
+        <image>ph.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Philippines</url>
+        <continent>Asia</continent>
+        <currency>Peso</currency>
+    </country>
+    <country>
+        <name>Poland</name>
+        <capital>Warsaw</capital>
+        <image>pl.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Poland</url>
+        <continent>Europe</continent>
+        <currency>Zloty</currency>
+    </country>
+    <country>
+        <name>Portugal</name>
+        <capital>Lisbon</capital>
+        <image>pt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Portugal</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Qatar</name>
+        <capital>Doha</capital>
+        <image>qa.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Qatar</url>
+        <continent>Asia</continent>
+        <currency>Qatari Rial</currency>
+    </country>
+    <country>
+        <name>Romania</name>
+        <capital>Bucharest</capital>
+        <image>ro.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Romania</url>
+        <continent>Europe</continent>
+        <currency>Romanian </currency>
+    </country>
+    <country>
+        <name>Russia</name>
+        <capital>Moscow</capital>
+        <image>ru.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Russia</url>
+        <continent>Europe/Asia</continent>
+        <currency>Ruble</currency>
+    </country>
+    <country>
+        <name>Rwanda</name>
+        <capital>Kigali</capital>
+        <image>rw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Rwanda</url>
+        <continent>Africa</continent>
+        <currency>Rwandan Franc</currency>
+    </country>
+    <country>
+        <name>Saint Kitts and Nevis</name>
+        <capital>Basseterre</capital>
+        <image>kn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis</url>
+        <continent>North America</continent>
+        <currency>East Caribbean Dollar</currency>
+    </country>
+    <country>
+        <name>Saint Lucia</name>
+        <capital>Castries</capital>
+        <image>lc.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Saint_Lucia</url>
+        <continent>North America</continent>
+        <currency>East Caribbean Dollar</currency>
+    </country>
+    <country>
+        <name>Saint Vincent and the Grenadines</name>
+        <capital>Kingstown</capital>
+        <image>vc.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines</url>
+        <continent>North America</continent>
+        <currency>East Caribbean Dollar</currency>
+    </country>
+    <country>
+        <name>Samoa</name>
+        <capital>Apia</capital>
+        <image>ws.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Samao</url>
+        <continent>Oceania</continent>
+        <currency>Samoan Tala</currency>
+    </country>
+    <country>
+        <name>San Marino</name>
+        <capital>San Marino</capital>
+        <image>sm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/San_Marino</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>São Tomé and Príncipe</name>
+        <capital>São Tomé</capital>
+        <image>st.jpg</image>
+        <url>https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe</url>
+        <continent>Africa</continent>
+        <currency>Dobra</currency>
+    </country>
+    <country>
+        <name>Saudi Arabia</name>
+        <capital>Riyadh</capital>
+        <image>sa.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Saudi_Arabia</url>
+        <continent>Asia</continent>
+        <currency>Riyal</currency>
+    </country>
+    <country>
+        <name>Senegal</name>
+        <capital>Dakar</capital>
+        <image>sn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Senegal</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Serbia</name>
+        <capital>Belgrade</capital>
+        <image>rs.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Serbia</url>
+        <continent>Europe</continent>
+        <currency>Serbian Dinar</currency>
+    </country>
+    <country>
+        <name>Seychelles</name>
+        <capital>Victoria</capital>
+        <image>sc.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Seychelles</url>
+        <continent>Africa</continent>
+        <currency>Seychellois Rupee</currency>
+    </country>
+    <country>
+        <name>Sierra_Leone</name>
+        <capital>Freetown</capital>
+        <image>sl.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Sierra_Leone</url>
+        <continent>Africa</continent>
+        <currency>Leone</currency>
+    </country>
+    <country>
+        <name>Singapore</name>
+        <capital>Singapore</capital>
+        <image>sg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Singapore</url>
+        <continent>Asia</continent>
+        <currency>Singapore dollar</currency>
+    </country>
+    <country>
+        <name>Slovakia</name>
+        <capital>Bratislava</capital>
+        <image>sk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Slovakia</url>
+        <continent>Asia</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Slovenia</name>
+        <capital>Slovenia</capital>
+        <image>si.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Slovenia</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Solomon_Islands</name>
+        <capital>Honiara</capital>
+        <image>sb.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Solomon_Islands</url>
+        <continent>Oceania</continent>
+        <currency>Solomon Islands Dollar</currency>
+    </country>
+    <country>
+        <name>Somalia</name>
+        <capital>Mogadishu</capital>
+        <image>sm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Somalia</url>
+        <continent>Africa</continent>
+        <currency>Somali Shilling</currency>
+    </country>
+    <country>
+        <name>South Africa</name>
+        <capital>Pretoria, Bloemfontein, Cape Town</capital>
+        <image>za.jpg</image>
+        <url>https://en.wikipedia.org/wiki/South_Africa</url>
+        <continent>Africa</continent>
+        <currency>Rand</currency>
+    </country>
+    <country>
+        <name>South Korea</name>
+        <capital>Juba</capital>
+        <image>kp.jpg</image>
+        <url>https://en.wikipedia.org/wiki/South_Korea</url>
+        <continent>Asia</continent>
+        <currency>South Korean Won</currency>
+    </country>
+    <country>
+        <name>South Sudan</name>
+        <capital>Juba</capital>
+        <image>ss.jpg</image>
+        <url>https://en.wikipedia.org/wiki/South_Sudan</url>
+        <continent>Africa</continent>
+        <currency>Sudanese Pound</currency>
+    </country>
+    <country>
+        <name>Spain</name>
+        <capital>Madrid</capital>
+        <image>es.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Spain</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Sri Lanka</name>
+        <capital>Sri Jayawardenapura Kotte</capital>
+        <image>lk.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Sri_Lanka</url>
+        <continent>Asia</continent>
+        <currency>Sri Lankan Rupee</currency>
+    </country>
+    <country>
+        <name>Sudan</name>
+        <capital>Khartoum</capital>
+        <image>sd.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Sudan</url>
+        <continent>Africa</continent>
+        <currency>Sudanese Pound</currency>
+    </country>
+    <country>
+        <name>Suriname</name>
+        <capital>Paramaribo</capital>
+        <image>sr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Suriname</url>
+        <continent>South America</continent>
+        <currency>Surinamese Dollar</currency>
+    </country>
+    <country>
+        <name>Sweden</name>
+        <capital>Stockholm</capital>
+        <image>se.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Sweden</url>
+        <continent>Europe</continent>
+        <currency>Krona</currency>
+    </country>
+    <country>
+        <name>Switzerland</name>
+        <capital>Bern</capital>
+        <image>ch.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Switzerland</url>
+        <continent>Europe</continent>
+        <currency>Swiss Franc</currency>
+    </country>
+    <country>
+        <name>Syria</name>
+        <capital>Damascus</capital>
+        <image>sy.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Syria</url>
+        <continent>Asia</continent>
+        <currency>Syrian Pound</currency>
+    </country>
+    <country>
+        <name>Taiwan</name>
+        <capital>Taipei</capital>
+        <image>tw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Taiwan</url>
+        <continent>Asia</continent>
+        <currency>Taiwan Dollar</currency>
+    </country>
+    <country>
+        <name>Tajikistan</name>
+        <capital>Dushanbe</capital>
+        <image>tj.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Tajikistan</url>
+        <continent>Asia</continent>
+        <currency>Somoni</currency>
+    </country>
+    <country>
+        <name>Tanzania</name>
+        <capital>Dodoma</capital>
+        <image>tz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Tanzania</url>
+        <continent>Africa</continent>
+        <currency>Tanzanian Shilling</currency>
+    </country>
+    <country>
+        <name>Timor Leste</name>
+        <capital>Dili</capital>
+        <image>tl.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Timor_Leste</url>
+        <continent>Asia</continent>
+        <currency>U.S. Dollar</currency>
+    </country>
+    <country>
+        <name>Thailand</name>
+        <capital>Bangkok</capital>
+        <image>th.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Thailand</url>
+        <continent>Asia</continent>
+        <currency>Baht</currency>
+    </country>
+    <country>
+        <name>Togo</name>
+        <capital>Lome</capital>
+        <image>tg.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Togo</url>
+        <continent>Africa</continent>
+        <currency>CFA Franc</currency>
+    </country>
+    <country>
+        <name>Tonga</name>
+        <capital>Nuku'alofa</capital>
+        <image>to.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Tonga</url>
+        <continent>Africa</continent>
+        <currency>Pa’anga</currency>
+    </country>
+    <country>
+        <name>Trinidad and Tobago</name>
+        <capital>Port of Spain</capital>
+        <image>tt.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Trinidad_and_Tobago</url>
+        <continent>North America</continent>
+        <currency>Trinidad and Tobago dollar</currency>
+    </country>
+    <country>
+        <name>Tunisia</name>
+        <capital>Tunis</capital>
+        <image>tn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Tunisia</url>
+        <continent>Africa</continent>
+        <currency>Tunisian Dinar</currency>
+    </country>
+    <country>
+        <name>Turkey</name>
+        <capital>Ankara</capital>
+        <image>tr.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Turkey</url>
+        <continent>Asia</continent>
+        <currency>Turkish Lira</currency>
+    </country>
+    <country>
+        <name>Turkmenistan</name>
+        <capital>Ashgabat</capital>
+        <image>tm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Turkmenistan</url>
+        <continent>Asia</continent>
+        <currency>Manat</currency>
+    </country>
+    <country>
+        <name>Tuvalu</name>
+        <capital>Funafuti</capital>
+        <image>tv.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Tuvalu</url>
+        <continent>Oceania</continent>
+        <currency>Tuvaluan Dollar</currency>
+    </country>
+    <country>
+        <name>Uganda</name>
+        <capital>Kampala</capital>
+        <image>ug.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Uganda</url>
+        <continent>Africa</continent>
+        <currency>Ugandan New Shilling</currency>
+    </country>
+    <country>
+        <name>Ukraine</name>
+        <capital>Kyiv</capital>
+        <image>ua.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Ukraine</url>
+        <continent>Europe</continent>
+        <currency>Ukrainian hryvnia</currency>
+    </country>
+    <country>
+        <name>United Arab Emirates</name>
+        <capital>Abu Dhabi</capital>
+        <image>ae.jpg</image>
+        <url>https://en.wikipedia.org/wiki/United_Arab_Emirates</url>
+        <continent>Asia</continent>
+        <currency>U.A.E. Dirham</currency>
+    </country>
+    <country>
+        <name>United Kingdom</name>
+        <capital>London</capital>
+        <image>gb.jpg</image>
+        <url>https://en.wikipedia.org/wiki/United_Kingdom</url>
+        <continent>Europe</continent>
+        <currency>Pound Sterling</currency>
+    </country>
+    <country>
+        <name>United States</name>
+        <capital>Washington D.C.</capital>
+        <image>us.jpg</image>
+        <url>https://en.wikipedia.org/wiki/United_States</url>
+        <continent>North America
+        </continent>
+        <currency>Dollar</currency>
+    </country>
+    <country>
+        <name>Uruguay</name>
+        <capital>Montevideo</capital>
+        <image>uy.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Uruguay</url>
+        <continent>	South America</continent>
+        <currency>Uruguay Peso</currency>
+    </country>
+    <country>
+        <name>Uzbekistan</name>
+        <capital>Tashkent</capital>
+        <image>uz.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Uzbekistan</url>
+        <continent>Asia</continent>
+        <currency>Uzbekistani Sum</currency>
+    </country>
+    <country>
+        <name>Vanuatu</name>
+        <capital>Port Vila</capital>
+        <image>vu.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Vanuatu</url>
+        <continent>Oceania</continent>
+        <currency>Vatu</currency>
+    </country>
+    <country>
+        <name>Vatican City</name>
+        <capital>Vatican City</capital>
+        <image>va.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Vatican_City</url>
+        <continent>Europe</continent>
+        <currency>Euro</currency>
+    </country>
+    <country>
+        <name>Venezuela</name>
+        <capital>Caracas</capital>
+        <image>ve.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Venezuela</url>
+        <continent>South America</continent>
+        <currency>Bolivar</currency>
+    </country>
+
+    <country>
+        <name>Vietnam</name>
+        <capital>Hanoi</capital>
+        <image>vn.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Vietnam</url>
+        <continent>Asia</continent>
+        <currency>Dong</currency>
+    </country>
+    <country>
+        <name>Yemen</name>
+        <capital>Sana'a</capital>
+        <image>ye.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Yemen</url>
+        <continent>Asia</continent>
+        <currency>Rial</currency>
+    </country>
+    <country>
+        <name>Zambia</name>
+        <capital>Lusaka</capital>
+        <image>zm.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Zambia</url>
+        <continent>Africa</continent>
+        <currency>Kwacha</currency>
+    </country>
+    <country>
+        <name>Zimbabwe</name>
+        <capital>Harare</capital>
+        <image>zw.jpg</image>
+        <url>https://en.wikipedia.org/wiki/Zimbabwe</url>
+        <continent>Africa</continent>
+        <currency>ZiG</currency>
+    </country>
+</countries>
